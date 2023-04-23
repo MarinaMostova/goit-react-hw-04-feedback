@@ -1,0 +1,31 @@
+.feedback__container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.feedback__button {
+  border: none;
+  border-radius: 15px;
+  color: aliceblue;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.feedback__button:hover {
+  box-shadow: 0px 5px 10px #b9b8b8;
+  opacity: 0.8;
+}
+.good {
+  background-color: green;
+}
+
+.neutral {
+  background-color: orange;
+}
+
+.bad {
+  background-color: red;
+}
